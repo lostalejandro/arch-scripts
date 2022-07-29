@@ -41,6 +41,7 @@ usermod -aG libvirt alejandro
 
 echo "alejandro ALL=(ALL) ALL" >> /etc/sudoers.d/alejandro
 
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 printf "\e[1;32mDone! Type exit, umount -a and reboot.\e[0m"
 
